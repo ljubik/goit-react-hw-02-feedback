@@ -1,17 +1,21 @@
+import React, { Component } from "react";
 import "./App.css";
+import Feedback from "./components/feedback/feedback"
 
 
-import userDB from "./db/user.json";
+class App extends Component {
+  state = {
+    good: 55,
+    neutral: 0,
+    bad: 45,
+  }
 
-
-function App() {
+  render() {
   return (
     <>
-    <div>Feedback</div>
-      
-      
+    <Feedback raiting={this.state}/>
     </>
   );
-}
+}};
 
 export default App;

@@ -1,0 +1,63 @@
+button {
+  color: black;
+  padding: 10px 20px;
+}
+
+p {
+  text-align: left;
+}
+
+.fedback {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding: 0px;
+  width: 450px;
+  border: 1px solid rgb(238, 237, 237);
+  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.fedbackList {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding: 0px;
+  width: 450px;
+  border: 1px solid rgb(238, 237, 237);
+  border-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  text-align: center;
+  align-items: center;
+}
+
+.ulList {
+  list-style: none;
+  display: flex;
+}
+
+.liList {
+  width: 150px;
+}
+
+.statList {
+  display: block;
+  text-align: left;
+}
+
+.green {
+  background-color: rgb(153, 255, 127);
+}
+
+.yellow {
+  background-color: rgba(255, 232, 127, 0.678);
+}
+
+.red {
+  background-color: brown;
+}
