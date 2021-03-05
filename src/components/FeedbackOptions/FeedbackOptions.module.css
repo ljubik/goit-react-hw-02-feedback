@@ -1,0 +1,26 @@
+button {
+  width: 100px;
+  color: black;
+  padding: 10px 20px;
+}
+
+.ulList {
+  list-style: none;
+  display: flex;
+}
+
+.liList {
+  width: 150px;
+}
+
+.green {
+  background-color: rgb(153, 255, 127);
+}
+
+.yellow {
+  background-color: rgba(255, 232, 127, 0.678);
+}
+
+.red {
+  background-color: brown;
+}

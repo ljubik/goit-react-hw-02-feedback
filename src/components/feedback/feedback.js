@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import style from "./feedback.module.css";
 import PropTypes from "prop-types";
+import FeedbackOptions from "../FeedbackOptions/FeedbackOptions";
 
 class Feedback extends Component {
   state = {
@@ -24,12 +25,12 @@ class Feedback extends Component {
   return (
     <div className={style.fedback}>
       Please leave feedback!
-      <ul className={style.ulList}>
+      {/* <ul className={style.ulList}>
         <li className={style.liList}><button name="good" onClick={addEl} className={style.green}>Good</button></li>
         <li className={style.liList}><button name="neutral" onClick={addEl} className={style.yellow}>Neutral</button></li>
         <li className={style.liList}><button name="bad" onClick={addEl} className={style.red}>Bad</button></li>
-      </ul>
-      
+      </ul> */}
+      <FeedbackOptions addEl={addEl}/>
       
       
       <div className={style.fedbackList}>
