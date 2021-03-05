@@ -5,15 +5,22 @@ import Feedback from "./components/feedback/feedback"
 
 class App extends Component {
   state = {
-    good: 55,
+    good: 0,
     neutral: 0,
-    bad: 45,
+    bad: 0,
   }
 
+  addEl = (e) => {
+    console.log(`e.target.name`, e.target.name );
+    const getVal = this.state;
+    this.setState(prevstate  => ({ [e.target.name]:  prevstate[e.target.name] + 1 } ));
+  };
+
   render() {
+    const { addEl } = this;
   return (
     <>
-    <Feedback raiting={this.state}/>
+    <Feedback raiting={this.state} addEl={addEl}/>
     </>
   );
 }};
