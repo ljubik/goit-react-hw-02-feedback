@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ljubik/goit-react-hw-02-feedback/static/css/main.8fa03877.chunk.css",
+    "main.js": "/ljubik/goit-react-hw-02-feedback/static/js/main.4ca81ba7.chunk.js",
+    "main.js.map": "/ljubik/goit-react-hw-02-feedback/static/js/main.4ca81ba7.chunk.js.map",
+    "runtime-main.js": "/ljubik/goit-react-hw-02-feedback/static/js/runtime-main.afc1d94a.js",
+    "runtime-main.js.map": "/ljubik/goit-react-hw-02-feedback/static/js/runtime-main.afc1d94a.js.map",
+    "static/js/2.ee163882.chunk.js": "/ljubik/goit-react-hw-02-feedback/static/js/2.ee163882.chunk.js",
+    "static/js/2.ee163882.chunk.js.map": "/ljubik/goit-react-hw-02-feedback/static/js/2.ee163882.chunk.js.map",
+    "index.html": "/ljubik/goit-react-hw-02-feedback/index.html",
+    "static/css/main.8fa03877.chunk.css.map": "/ljubik/goit-react-hw-02-feedback/static/css/main.8fa03877.chunk.css.map",
+    "static/js/2.ee163882.chunk.js.LICENSE.txt": "/ljubik/goit-react-hw-02-feedback/static/js/2.ee163882.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afc1d94a.js",
+    "static/js/2.ee163882.chunk.js",
+    "static/css/main.8fa03877.chunk.css",
+    "static/js/main.4ca81ba7.chunk.js"
+  ]
+}
