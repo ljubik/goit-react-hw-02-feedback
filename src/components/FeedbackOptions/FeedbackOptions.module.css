@@ -4,9 +4,17 @@ button {
   padding: 10px 20px;
 }
 
+.centerContainer {
+  margin: 0 auto;
+  max-width: 450px;
+  text-align: center;
+}
+
 .ulList {
   list-style: none;
   display: flex;
+  align-content: center;
+  align-items: center;
 }
 
 .liList {

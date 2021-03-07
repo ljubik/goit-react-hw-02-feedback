@@ -1,16 +1,24 @@
-import React, { Component } from "react";
+import React from "react";
 import style from "./FeedbackOptions.module.css";
+import PropTypes from 'prop-types';
 
 
-function FeedbackOptions({addEl}) {
-    // const { addEl } =  this.props;
-    return (
-        <ul className={style.ulList}>
-            <li className={style.liList}><button name="good" onClick={addEl} className={style.green}>Good</button></li>
-            <li className={style.liList}><button name="neutral" onClick={addEl} className={style.yellow}>Neutral</button></li>
-            <li className={style.liList}><button name="bad" onClick={addEl} className={style.red}>Bad</button></li>
-        </ul>
+function FeedbackOptions({ options, leaveFeedback }) {
+   
+    return (       
+        <div className={style.centerContainer}>
+            <ul className={style.ulList}>
+                <li className={style.liList}><button name="good" onClick={leaveFeedback} className={style.green}>Good</button></li>
+                <li className={style.liList}><button name="neutral" onClick={leaveFeedback} className={style.yellow}>Neutral</button></li>
+                <li className={style.liList}><button name="bad" onClick={leaveFeedback} className={style.red}>Bad</button></li>
+            </ul>
+        </div>
     );
   }
   
+  FeedbackOptions.propTypes = {
+    options: PropTypes.arrayOf(PropTypes.string.isRequired),
+    onLeaveFeedback: PropTypes.func.isRequired,
+  };
+
   export default FeedbackOptions;

@@ -1,0 +1,26 @@
+.centerContainer {
+  margin: 0 auto;
+  max-width: 450px;
+  text-align: left;
+}
+
+.good {
+  background-color: rgb(153, 255, 127);
+}
+
+.neutral {
+  background-color: rgba(255, 232, 127, 0.678);
+}
+
+.bad {
+  background-color: rgb(165, 42, 42);
+  color: blanchedalmond;
+}
+
+.feedbackBad {
+  background-color: rgb(165, 42, 42);
+}
+
+.feedbackGood {
+  background-color: rgb(153, 255, 127);
+}
