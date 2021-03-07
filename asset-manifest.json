@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ljubik/goit-react-hw-02-feedback/static/css/main.8fa03877.chunk.css",
-    "main.js": "/ljubik/goit-react-hw-02-feedback/static/js/main.4ca81ba7.chunk.js",
-    "main.js.map": "/ljubik/goit-react-hw-02-feedback/static/js/main.4ca81ba7.chunk.js.map",
+    "main.js": "/ljubik/goit-react-hw-02-feedback/static/js/main.6c0d9b63.chunk.js",
+    "main.js.map": "/ljubik/goit-react-hw-02-feedback/static/js/main.6c0d9b63.chunk.js.map",
     "runtime-main.js": "/ljubik/goit-react-hw-02-feedback/static/js/runtime-main.afc1d94a.js",
     "runtime-main.js.map": "/ljubik/goit-react-hw-02-feedback/static/js/runtime-main.afc1d94a.js.map",
     "static/js/2.ee163882.chunk.js": "/ljubik/goit-react-hw-02-feedback/static/js/2.ee163882.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.afc1d94a.js",
     "static/js/2.ee163882.chunk.js",
     "static/css/main.8fa03877.chunk.css",
-    "static/js/main.4ca81ba7.chunk.js"
+    "static/js/main.6c0d9b63.chunk.js"
   ]
 }
