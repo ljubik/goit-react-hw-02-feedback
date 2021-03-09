@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import style from "../Feedback/Feedback.module.css";
+import style from "../../components/Feedback/Feedback.module";
 // import PropTypes from "prop-types";
-import FeedbackOptions from "../FeedbackOptions/FeedbackOptions";
+import FeedbackOptions from "../../components/FeedbackOptions/FeedbackOptions";
 
 class Feedback extends Component {
   state = {
