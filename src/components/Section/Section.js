@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import style from '../Section/Section.module.css';
+import style from '../../components/Section/Section.module.css';
 
 const Section = ({ title, children }) => {
   return (

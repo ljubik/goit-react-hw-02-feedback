@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../FeedbackOptions/FeedbackOptions.module.css";
+import style from "../../components/FeedbackOptions/FeedbackOptions.module.css";
 import PropTypes from 'prop-types';
 
 
