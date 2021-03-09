@@ -39,30 +39,3 @@ class Feedback extends Component {
 }};
 
 export default Feedback;
-
-function Age(data) { 
-  if (data === {age:18}) 
-  {console.log('ok');
-  } else if (data == {age:18}){
-    console.log('second');
-  } else { 
-    console.log('other');
-  }
-}
-Age({age:18})
-
-for (var i=0; i<10; i++){
-  setTimeout(function(){
-    console.log(i);
-  }, 0);
-}
-
-function Add() {
-  const n=0
-  return function() {
-    return n +=2;
-  };
-} 
-const f= Add();
-f();
-f();
