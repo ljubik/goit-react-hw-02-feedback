@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import "./App.css";
-// import Feedback from "./components/Feedback/Feedback";
 import FeedbackOptions from "./components/FeedbackOptions/FeedbackOptions";
 import Section from "./components/Section/Section";
 import Notification from "./components/Notification/Notification";
@@ -16,7 +14,6 @@ class App extends Component {
 
   addEl = (e) => {
     console.log(`e.target.name`, e.target.name );
-    // const getVal = this.state;
     this.setState(prevstate  => ({ [e.target.name]:  prevstate[e.target.name] + 1 } ));
   };
 
@@ -44,7 +41,6 @@ class App extends Component {
   render() {
     const total = this.countTotal();
     const { good, neutral, bad } = this.state;
-    // const { addEl } = this;
     const positivePercentage = this.countPositivePercentage();
 
   return (
